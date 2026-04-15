@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+
+.nav-1{
+  font-weight: bold;
+}
+
+.nav-1 a:hover {
+  text-decoration: underline(bg-yellow-500);
+}
+
+.sp-1{
+  color: #f19b06; /* your gradient */
+  background-size: 200% 200%;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.download-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:12px 20px;
+  border-radius:8px;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.download-btn:hover{
+  background:#ffb624;
+  transform:translateY(-2px);
+}
+
+.footer{
+  padding:50px 80px;
+  background:#050b16;
+  border-top:1px solid rgba(255,255,255,0.08);
+  color:#8fa1b3;
+}
+
+/* top layout */
+
+.footer-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+/* left */
+
+.footer-left p{
+  margin:5px 0;
+  font-size:14px;
+}
+
+/* center icons */
+
+.footer-center{
+  display:flex;
+  gap:20px;
+}
+
+.footer-center a{
+  color:#7b8aa0;
+  font-size:20px;
+  transition:0.3s;
+}
+
+.footer-center a:hover{
+  color:#ffaa00;
+  transform:translateY(-3px);
+}
+
+/* right text */
+
+.footer-right{
+  font-size:15px;
+}
+
+.footer-right span{
+  color:#ffaa00;
+  font-weight:500;
+}
+
+/* bottom */
+
+.footer-bottom{
+  margin-top:35px;
+  padding-top:20px;
+  border-top:1px solid rgba(255,255,255,0.05);
+  text-align:center;
+  font-size:13px;
+  color:#6c7c90;
+}
+
+@media (max-width: 768px){
+
+.footer{
+  padding:40px 25px;
+}
+
+.footer-top{
+  flex-direction:column;
+  gap:25px;
+  text-align:center;
+}
+
+.footer-center{
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.footer-right{
+  font-size:14px;
+}
+
+}
