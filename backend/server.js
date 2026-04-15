@@ -22,6 +22,9 @@ app.use(express.json());
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
+   port: 587,
+  secure: false,
+  family: 4, // 👈 FORCE IPv4 (VERY IMPORTANT)
   auth: {
     user: process.env.GMAIL_USER,
     pass: process.env.GMAIL_PASS,
