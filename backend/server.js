@@ -9,7 +9,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+       "https://hama-protofilo-flax.vercel.app", 
+    ],
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
   })
@@ -25,7 +28,7 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-app.get("/test", (req, res) => {
+app.get("/", (req, res) => {
   res.json({ message: "Server is working!" });
 });
 

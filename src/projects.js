@@ -32,7 +32,7 @@ const projects = [
     description: "My personal portfolio website that I build to show all my projects and skills and contact me",
     tech: "React • Tailwind CSS • Node/Express.js",
     image: "/images/project5.png",
-    github: "https://github.com/hamaomer-max"
+    github: "https://github.com/hamaomer-max/My-Protofilo-"
   }
 ];
 
