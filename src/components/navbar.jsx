@@ -49,7 +49,7 @@ function Navbar() {
 
         <a
           href="../public/cv/muhammed_omer_cv.pdf"
-          download
+          download="muhammed_omer_cv.pdf"
           className="download-btn bg-yellow-600 hover:bg-yellow-500 hidden md:flex text-white"
         >
           <FaDownload /> Download CV
