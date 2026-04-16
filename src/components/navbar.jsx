@@ -48,7 +48,7 @@ function Navbar() {
         </div>
 
         <a
-          href="../public/cv/cv4.pdf"
+          href="../public/cv/muhammed_omer_cv.pdf"
           download
           className="download-btn bg-yellow-600 hover:bg-yellow-500 hidden md:flex text-white"
         >
@@ -73,7 +73,7 @@ function Navbar() {
           </span>
         </button>
 
-        {/* Mobile Menu with animation */}
+        
         <div
           className={`nav-1 fixed top-16 left-0 w-full bg-gradient-to-br from-blue-950 to-black
   flex flex-col items-center gap-6 py-8 md:hidden z-50 text-white

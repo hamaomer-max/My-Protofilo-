@@ -8,7 +8,7 @@ function Contact() {
   const [toast, setToast] = useState(null);
 
   const showToast = (type, msg) => {
-    setToast({ type, msg }); // ← store object with type AND msg
+    setToast({ type, msg }); 
     setTimeout(() => setToast(null), 4000);
   };
 

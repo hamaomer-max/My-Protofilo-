@@ -8,7 +8,7 @@ function Project() {
     hidden: {},
     show: {
       transition: {
-        staggerChildren: 0.15, // each child delays 0.15s
+        staggerChildren: 0.15, 
       },
     },
   };

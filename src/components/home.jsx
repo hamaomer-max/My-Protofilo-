@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { FaDownload } from "react-icons/fa";
-import { motion } from "framer-motion";
 import TypeWriter from "./TypeWriter";
 
 function Home() {
@@ -13,7 +10,7 @@ function Home() {
       >
         {/* HERO SECTION */}
         <div className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-12 py-16 md:py-24 gap-12">
-          {/* LEFT SIDE */}
+          
           <div className="flex-1 text-center md:text-left" data-aos="fade-up" data-aos-delay="200">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 font-mon">
               Hello <br /> I'm Muhammad Omer
@@ -27,7 +24,7 @@ function Home() {
               problems with clean, maintainable code.
             </p>
 
-            {/* Buttons */}
+            
             <div data-aos="fade-up" data-aos-delay="400" className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a
                 href="#projects"
@@ -49,7 +46,7 @@ function Home() {
             </div>
           </div>
 
-          {/* RIGHT SIDE */}
+          
           <div className="flex-1 flex justify-center" data-aos="fade-up" data-aos-delay="100">
             <img
               src="/images/hama.jpg"

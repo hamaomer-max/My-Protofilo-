@@ -12,7 +12,7 @@ function TypeWriter() {
       const timeout = setTimeout(() => {
         setDisplayed((prev) => prev + fullText[index]);
         setIndex((prev) => prev + 1);
-      }, 80); // typing speed in ms
+      }, 80); 
       return () => clearTimeout(timeout);
     }
   }, [index]);

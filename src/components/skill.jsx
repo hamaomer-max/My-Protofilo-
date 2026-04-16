@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
 import {
   FaReact,
   FaJs,
@@ -30,7 +28,7 @@ function Skill() {
     hidden: {},
     show: {
       transition: {
-        staggerChildren: 0.15, // each child delays 0.15s
+        staggerChildren: 0.15, 
       },
     },
   };

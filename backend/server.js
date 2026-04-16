@@ -22,9 +22,6 @@ app.use(express.json());
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
-   port: 587,
-  secure: false,
-  family: 4, // 👈 FORCE IPv4 (VERY IMPORTANT)
   auth: {
     user: process.env.GMAIL_USER,
     pass: process.env.GMAIL_PASS,
@@ -53,15 +50,15 @@ app.post("/api/contact", async (req, res) => {
       `,
     });
 
-    console.log("✅ Email sent successfully");
+    console.log("Email sent successfully");
     res.status(200).json({ success: true });
   } catch (error) {
-    console.error("❌ Email error:", error.message);
+    console.error("Email error:", error.message);
     res.status(500).json({ success: false, error: error.message });
   }
 });
 
-// ONE listen only
+
 app.listen(8080, () => {
   console.log("Server running on port 8080");
 });
