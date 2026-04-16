@@ -19,7 +19,7 @@ function App() {
   
   return (
     <>
-
+      <div className="overflow-hidden">
       <Navbar />
       <div className="pt-20">
         <Home />
@@ -28,6 +28,7 @@ function App() {
         <Project />
         <Contact />
         <Footer />
+      </div>
       </div>
     </>
   );
