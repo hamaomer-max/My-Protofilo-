@@ -49,7 +49,7 @@ function Home() {
           
           <div className="flex-1 flex justify-center" data-aos="fade-up" data-aos-delay="100">
             <img
-              src="/images/hama.jpg"
+              src="/images/hama.png"
               alt="Hama Omer"
               className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover rounded-full shadow-2xl ring-4 ring-white/40"
             />
