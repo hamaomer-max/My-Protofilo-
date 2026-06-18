@@ -1,10 +1,10 @@
 const projects = [
   {
-    title: "Restorant Mangment System",
-    description: "Restorant mangment system that build to help Restorants and mange all products",
-    tech: "Laravel • Bootstrap • SQL",
-    image: "/images/project1.png",
-    github: "https://github.com/hamaomer-max/Resturant_Mangment_System",
+    title: "Ecommerce Web_App",
+    description: "Ecommerce web application that can hold and mange all products and orders",
+    tech: "Laravel • Tailwind CSS • TypeScript",
+    image: "/images/project6.png",
+    github: "https://github.com/hamaomer-max/E_commerse-web-app-",
   },
   {
     title: "School Mangment System",
